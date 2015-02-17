@@ -1,0 +1,314 @@
+body {
+  background-color: #000000;
+  margin: 0;
+  overflow: hidden;
+}
+
+article {
+  position: absolute;
+  top: 50%;
+  margin-top: -2.5vw;
+}
+article div.container {
+  -webkit-perspective: 800px;
+  width: 5vw;
+}
+article div.container > div.element-container {
+  -webkit-transform-style: preserve-3d;
+  opacity: 0;
+}
+article div.container > div.reset {
+  -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg) translateX(0px) translateY(0px) translateZ(0px);
+  opacity: 1;
+  -webkit-transition: 0.4s -webkit-transform ease-out, 0.4s opacity ease-out;
+  margin-top: 0px;
+  -webkit-transform-style: preserve-3d;
+}
+article div.container > div > div.element {
+  width: 5vw;
+  height: 5vw;
+  position: absolute;
+  color: #ffffff;
+  font-family: futura;
+  font-size: 5vw;
+  line-height: 5vw;
+  text-align: center;
+}
+
+button#reset-btn {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  width: 90px;
+  height: 30px;
+  font-size: 10px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 2px;
+  border: none;
+  background-color: #ffffff;
+}
+button#reset-btn:focus {
+  outline: 0;
+}
+
+div.container:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0vw;
+}
+div.container:nth-child(1) div.element-container {
+  -webkit-transform: rotateX(-263deg) rotateY(-210deg) rotateZ(130deg) translateX(-41px) translateY(226px) translateZ(-239px);
+}
+div.container:nth-child(1) div.element-container > div {
+  top: 0;
+  left: 0vw;
+}
+
+div.container:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 5vw;
+}
+div.container:nth-child(2) div.element-container {
+  -webkit-transform: rotateX(-314deg) rotateY(-107deg) rotateZ(350deg) translateX(-2px) translateY(335px) translateZ(-110px);
+}
+div.container:nth-child(2) div.element-container > div {
+  top: 0;
+  left: 5vw;
+}
+
+div.container:nth-child(3) {
+  position: absolute;
+  top: 0;
+  left: 10vw;
+}
+div.container:nth-child(3) div.element-container {
+  -webkit-transform: rotateX(-287deg) rotateY(348deg) rotateZ(-231deg) translateX(-245px) translateY(184px) translateZ(-104px);
+}
+div.container:nth-child(3) div.element-container > div {
+  top: 0;
+  left: 10vw;
+}
+
+div.container:nth-child(4) {
+  position: absolute;
+  top: 0;
+  left: 15vw;
+}
+div.container:nth-child(4) div.element-container {
+  -webkit-transform: rotateX(34deg) rotateY(298deg) rotateZ(-343deg) translateX(-103px) translateY(72px) translateZ(219px);
+}
+div.container:nth-child(4) div.element-container > div {
+  top: 0;
+  left: 15vw;
+}
+
+div.container:nth-child(5) {
+  position: absolute;
+  top: 0;
+  left: 20vw;
+}
+div.container:nth-child(5) div.element-container {
+  -webkit-transform: rotateX(89deg) rotateY(85deg) rotateZ(288deg) translateX(354px) translateY(-31px) translateZ(67px);
+}
+div.container:nth-child(5) div.element-container > div {
+  top: 0;
+  left: 20vw;
+}
+
+div.container:nth-child(6) {
+  position: absolute;
+  top: 0;
+  left: 25vw;
+}
+div.container:nth-child(6) div.element-container {
+  -webkit-transform: rotateX(-136deg) rotateY(-82deg) rotateZ(224deg) translateX(-232px) translateY(-131px) translateZ(-306px);
+}
+div.container:nth-child(6) div.element-container > div {
+  top: 0;
+  left: 25vw;
+}
+
+div.container:nth-child(7) {
+  position: absolute;
+  top: 0;
+  left: 30vw;
+}
+div.container:nth-child(7) div.element-container {
+  -webkit-transform: rotateX(162deg) rotateY(207deg) rotateZ(30deg) translateX(-353px) translateY(10px) translateZ(135px);
+}
+div.container:nth-child(7) div.element-container > div {
+  top: 0;
+  left: 30vw;
+}
+
+div.container:nth-child(8) {
+  position: absolute;
+  top: 0;
+  left: 35vw;
+}
+div.container:nth-child(8) div.element-container {
+  -webkit-transform: rotateX(221deg) rotateY(-138deg) rotateZ(-131deg) translateX(-179px) translateY(-246px) translateZ(170px);
+}
+div.container:nth-child(8) div.element-container > div {
+  top: 0;
+  left: 35vw;
+}
+
+div.container:nth-child(9) {
+  position: absolute;
+  top: 0;
+  left: 40vw;
+}
+div.container:nth-child(9) div.element-container {
+  -webkit-transform: rotateX(-159deg) rotateY(-70deg) rotateZ(-141deg) translateX(52px) translateY(-100px) translateZ(329px);
+}
+div.container:nth-child(9) div.element-container > div {
+  top: 0;
+  left: 40vw;
+}
+
+div.container:nth-child(10) {
+  position: absolute;
+  top: 0;
+  left: 45vw;
+}
+div.container:nth-child(10) div.element-container {
+  -webkit-transform: rotateX(73deg) rotateY(-109deg) rotateZ(-239deg) translateX(20px) translateY(-338px) translateZ(62px);
+}
+div.container:nth-child(10) div.element-container > div {
+  top: 0;
+  left: 45vw;
+}
+
+div.container:nth-child(11) {
+  position: absolute;
+  top: 0;
+  left: 50vw;
+}
+div.container:nth-child(11) div.element-container {
+  -webkit-transform: rotateX(-183deg) rotateY(196deg) rotateZ(-283deg) translateX(-202px) translateY(278px) translateZ(324px);
+}
+div.container:nth-child(11) div.element-container > div {
+  top: 0;
+  left: 50vw;
+}
+
+div.container:nth-child(12) {
+  position: absolute;
+  top: 0;
+  left: 55vw;
+}
+div.container:nth-child(12) div.element-container {
+  -webkit-transform: rotateX(-216deg) rotateY(257deg) rotateZ(-32deg) translateX(42px) translateY(24px) translateZ(254px);
+}
+div.container:nth-child(12) div.element-container > div {
+  top: 0;
+  left: 55vw;
+}
+
+div.container:nth-child(13) {
+  position: absolute;
+  top: 0;
+  left: 60vw;
+}
+div.container:nth-child(13) div.element-container {
+  -webkit-transform: rotateX(194deg) rotateY(24deg) rotateZ(-202deg) translateX(30px) translateY(19px) translateZ(-148px);
+}
+div.container:nth-child(13) div.element-container > div {
+  top: 0;
+  left: 60vw;
+}
+
+div.container:nth-child(14) {
+  position: absolute;
+  top: 0;
+  left: 65vw;
+}
+div.container:nth-child(14) div.element-container {
+  -webkit-transform: rotateX(-128deg) rotateY(-135deg) rotateZ(-334deg) translateX(89px) translateY(-296px) translateZ(161px);
+}
+div.container:nth-child(14) div.element-container > div {
+  top: 0;
+  left: 65vw;
+}
+
+div.container:nth-child(15) {
+  position: absolute;
+  top: 0;
+  left: 70vw;
+}
+div.container:nth-child(15) div.element-container {
+  -webkit-transform: rotateX(223deg) rotateY(91deg) rotateZ(-218deg) translateX(-76px) translateY(-182px) translateZ(-130px);
+}
+div.container:nth-child(15) div.element-container > div {
+  top: 0;
+  left: 70vw;
+}
+
+div.container:nth-child(16) {
+  position: absolute;
+  top: 0;
+  left: 75vw;
+}
+div.container:nth-child(16) div.element-container {
+  -webkit-transform: rotateX(210deg) rotateY(-243deg) rotateZ(229deg) translateX(-68px) translateY(119px) translateZ(111px);
+}
+div.container:nth-child(16) div.element-container > div {
+  top: 0;
+  left: 75vw;
+}
+
+div.container:nth-child(17) {
+  position: absolute;
+  top: 0;
+  left: 80vw;
+}
+div.container:nth-child(17) div.element-container {
+  -webkit-transform: rotateX(-221deg) rotateY(304deg) rotateZ(226deg) translateX(-309px) translateY(-195px) translateZ(131px);
+}
+div.container:nth-child(17) div.element-container > div {
+  top: 0;
+  left: 80vw;
+}
+
+div.container:nth-child(18) {
+  position: absolute;
+  top: 0;
+  left: 85vw;
+}
+div.container:nth-child(18) div.element-container {
+  -webkit-transform: rotateX(277deg) rotateY(-272deg) rotateZ(-213deg) translateX(93px) translateY(-191px) translateZ(281px);
+}
+div.container:nth-child(18) div.element-container > div {
+  top: 0;
+  left: 85vw;
+}
+
+div.container:nth-child(19) {
+  position: absolute;
+  top: 0;
+  left: 90vw;
+}
+div.container:nth-child(19) div.element-container {
+  -webkit-transform: rotateX(-156deg) rotateY(305deg) rotateZ(221deg) translateX(-224px) translateY(-82px) translateZ(99px);
+}
+div.container:nth-child(19) div.element-container > div {
+  top: 0;
+  left: 90vw;
+}
+
+div.container:nth-child(20) {
+  position: absolute;
+  top: 0;
+  left: 95vw;
+}
+div.container:nth-child(20) div.element-container {
+  -webkit-transform: rotateX(-294deg) rotateY(-45deg) rotateZ(224deg) translateX(250px) translateY(24px) translateZ(-121px);
+}
+div.container:nth-child(20) div.element-container > div {
+  top: 0;
+  left: 95vw;
+}
